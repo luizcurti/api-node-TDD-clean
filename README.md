@@ -30,8 +30,8 @@ Before running the application, make sure you have the following installed:
 Set up environment variables:
 Create a .env file at the root of the project and add your environment variables. You can use .env.example as a reference.
 
-DATABASE_URL=your_database_url
-PORT=your_app_port
+* DATABASE_URL=your_database_url
+* PORT=your_app_port
 
 ## Run the application:
 - npm start or yarn start
