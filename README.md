@@ -65,23 +65,6 @@ yarn lint
 Folder Structure
 The project follows Clean Architecture principles, which ensure that business logic is decoupled from the frameworks and tools.
 
-.
-├── src
-│   ├── config          # Configuration files (e.g., database, server settings)
-│   ├── modules         # Core business logic
-│   │   ├── user        # Example module (User)
-│   │   │   ├── domain  # Domain models, entities, and value objects
-│   │   │   ├── use-cases # Use cases or business logic
-│   │   │   ├── infra    # Infra layer: repository implementations, DB queries
-│   │   │   └── presentation # Controllers, Routes
-│   ├── shared          # Shared modules and utilities
-│   ├── tests           # Unit and integration tests
-└── .env                # Environment variables
-└── .gitignore          # Git ignore file
-└── jest.config.js      # Jest configuration
-└── tsconfig.json       # TypeScript configuration
-└── package.json        # Project metadata and dependencies
-
 Technologies Used
 Node.js: Runtime environment to build the API.
 Express: Web framework for building the API.
